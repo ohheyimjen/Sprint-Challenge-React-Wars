@@ -24,13 +24,27 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+React JS is a user/developer-friendly JavaScript library, that is component-based, for building user interfaces. It allows you to create reusable UI components. In doing this, React takes a lot of work off of the DOM, while providing an easier experience for the aforementioned users and developers.
 
-- [ ] Describe state.
 
-- [ ] Describe props.
+- [X] What does it mean to _think_ in react?
+
+Thinking in react is re-working the thought process you use to cater it to building a searchable product data table using React using these 5 steps:
+1. Break the UI into a component hierarchy.
+2. Build a static version in React.
+3. Identify the minimal (but complete) representation of UI state.
+4. Identify where your state should live.
+5. Add inverse data flow.
+
+- [X] Describe state.
+
+State is simply data. It is the data that our components, which make up React, will have access to. 
+
+- [X] Describe props.
+
+Props is short for 'properties'. These properties help the data flow in React by passing components down in an application. Props are immutable.
 
 ## Project Set Up
 
