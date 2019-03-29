@@ -10,7 +10,8 @@ class Aliens extends React.Component {
 render() {
     return (
         <div>
-            <h1>Star Wars Characters:</h1>
+            <h1 className='title'>Star Wars Characters:</h1>
+            <img src={'./components/storm-trooper.jpg'} alt='Storm Trooper' />
 
            
         </div>
